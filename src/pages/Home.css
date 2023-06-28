@@ -94,3 +94,34 @@ html, body {
     border:none;
     font-weight: 700;
 }
+@media screen and (max-width :600px)
+{
+    .info1{
+        font-size: 30px;
+    }
+    li a{
+        padding: 5px;
+    }
+    .info2{
+        font-size: 10px;
+    }
+    
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 200px 0 100vh 0;
+    align-items: center;
+    align-content: center;
+}
+.h1{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.logo{
+    height: 25px;
+    padding-top: 2px;
+}
+.header{
+padding-right: 0px;
+}
+}
