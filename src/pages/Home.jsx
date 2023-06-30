@@ -36,7 +36,7 @@ const Home = () => {
         <div className='info2'>Millions of Songs. No Credit Card Needed</div>
         <input type="button" className='btn1' value="GET SPOTIFY FREE" />
         <button className='btn2' onClick={changeColor}>Change Theme</button>
-        <span>Button Clicked {count} Time(s)</span>
+        <span>Button Clicked {count} Times</span>
     </div>
     </div>
    
