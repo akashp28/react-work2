@@ -42,6 +42,8 @@ label{
     height: 30px;
     margin:auto 30px 10px 30px;
     padding-left: 10px;
+}#s1:hover{
+    background-color: #0acd0ae7;
 }
 h3{
     text-align: center;
