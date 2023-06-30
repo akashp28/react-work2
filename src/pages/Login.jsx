@@ -27,7 +27,7 @@ const Login = () => {
             <h3 className='log'>Login</h3>
            <label htmlFor="email">Email :</label>
            <input type="email" id="email" placeholder="Enter Email" required onChange={(e)=>console.log(e.target.value)} ></input>
-       <label htmlFor="password" >Password :</label>
+       <label htmlFor="pass" >Password :</label>
        <input type={passwordVisible ? 'text' : 'password'}value={password} onChange={handlePasswordChange} placeholder='Enter Password' required id='pass' />
        <div className='chkbox'>
        <input type="checkbox"  checked={passwordVisible}onChange={handlePasswordToggle} id='checkbox'/> 
